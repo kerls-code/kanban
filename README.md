@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Check it out here!
+https://kerls-code.github.io/kanban/
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and leverages this [codesandbox drag and drop sample](https://codesandbox.io/s/-w5szl?file=/src/index.js:0-4999)
 
 ## Available Scripts
 
