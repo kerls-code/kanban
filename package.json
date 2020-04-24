@@ -1,9 +1,10 @@
 {
   "name": "tamagotchi",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://kerls-code.github.io/kanban/",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "now": "^17.0.4",
     "react": "^16.10.2",
     "react-beautiful-dnd": "^13.0.0",
@@ -14,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
